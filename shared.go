@@ -1,3 +1,3 @@
 package shared
 
-var v = "shared value with A and B"
+var V = "shared value with A and B"

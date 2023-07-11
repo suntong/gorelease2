@@ -10,6 +10,7 @@ builds:
 
     main: ./cmd/mainA
     id: mainA
+    binary: mainA
 
   - env: [CGO_ENABLED=0]
     goos:
@@ -22,3 +23,4 @@ builds:
 
     main: ./cmd/mainB
     id: mainB
+    binary: mainB
